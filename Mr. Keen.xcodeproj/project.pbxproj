@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3F6940ED219A8A3B001885D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6940EC219A8A3B001885D0 /* AppDelegate.swift */; };
-		3F6940EF219A8A3B001885D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6940EE219A8A3B001885D0 /* ViewController.swift */; };
 		3F6940F2219A8A3B001885D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6940F0219A8A3B001885D0 /* Main.storyboard */; };
 		3F6940F4219A8A3D001885D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F6940F3219A8A3D001885D0 /* Assets.xcassets */; };
 		3F6940F7219A8A3D001885D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F6940F5219A8A3D001885D0 /* LaunchScreen.storyboard */; };
+		3F6940FF219A8A70001885D0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6940FE219A8A70001885D0 /* Data.swift */; };
+		3F694101219A8B4E001885D0 /* PersonFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F694100219A8B4E001885D0 /* PersonFetcher.swift */; };
+		3F694103219A9286001885D0 /* PersonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F694102219A9286001885D0 /* PersonsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F6940E9219A8A3B001885D0 /* Mr. Kenn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr. Kenn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6940E9219A8A3B001885D0 /* Mr. Keen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mr. Keen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6940EC219A8A3B001885D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F6940EE219A8A3B001885D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F6940F1219A8A3B001885D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F6940F3219A8A3D001885D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F6940F6219A8A3D001885D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F6940F8219A8A3D001885D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6940FE219A8A70001885D0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3F694100219A8B4E001885D0 /* PersonFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFetcher.swift; sourceTree = "<group>"; };
+		3F694102219A9286001885D0 /* PersonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		3F6940E0219A8A3B001885D0 = {
 			isa = PBXGroup;
 			children = (
-				3F6940EB219A8A3B001885D0 /* Mr. Kenn */,
+				3F6940EB219A8A3B001885D0 /* Mr. Keen */,
 				3F6940EA219A8A3B001885D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +50,32 @@
 		3F6940EA219A8A3B001885D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F6940E9219A8A3B001885D0 /* Mr. Kenn.app */,
+				3F6940E9219A8A3B001885D0 /* Mr. Keen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F6940EB219A8A3B001885D0 /* Mr. Kenn */ = {
+		3F6940EB219A8A3B001885D0 /* Mr. Keen */ = {
 			isa = PBXGroup;
 			children = (
 				3F6940EC219A8A3B001885D0 /* AppDelegate.swift */,
-				3F6940EE219A8A3B001885D0 /* ViewController.swift */,
+				3F6940FE219A8A70001885D0 /* Data.swift */,
+				3F694100219A8B4E001885D0 /* PersonFetcher.swift */,
 				3F6940F0219A8A3B001885D0 /* Main.storyboard */,
+				3F694102219A9286001885D0 /* PersonsTableViewController.swift */,
 				3F6940F3219A8A3D001885D0 /* Assets.xcassets */,
 				3F6940F5219A8A3D001885D0 /* LaunchScreen.storyboard */,
 				3F6940F8219A8A3D001885D0 /* Info.plist */,
 			);
-			path = "Mr. Kenn";
+			path = "Mr. Keen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F6940E8219A8A3B001885D0 /* Mr. Kenn */ = {
+		3F6940E8219A8A3B001885D0 /* Mr. Keen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F6940FB219A8A3E001885D0 /* Build configuration list for PBXNativeTarget "Mr. Kenn" */;
+			buildConfigurationList = 3F6940FB219A8A3E001885D0 /* Build configuration list for PBXNativeTarget "Mr. Keen" */;
 			buildPhases = (
 				3F6940E5219A8A3B001885D0 /* Sources */,
 				3F6940E6219A8A3B001885D0 /* Frameworks */,
@@ -79,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Mr. Kenn";
+			name = "Mr. Keen";
 			productName = "Mr. Kenn";
-			productReference = 3F6940E9219A8A3B001885D0 /* Mr. Kenn.app */;
+			productReference = 3F6940E9219A8A3B001885D0 /* Mr. Keen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F6940E4219A8A3B001885D0 /* Build configuration list for PBXProject "Mr. Kenn" */;
+			buildConfigurationList = 3F6940E4219A8A3B001885D0 /* Build configuration list for PBXProject "Mr. Keen" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F6940E8219A8A3B001885D0 /* Mr. Kenn */,
+				3F6940E8219A8A3B001885D0 /* Mr. Keen */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F6940EF219A8A3B001885D0 /* ViewController.swift in Sources */,
+				3F694103219A9286001885D0 /* PersonsTableViewController.swift in Sources */,
+				3F6940FF219A8A70001885D0 /* Data.swift in Sources */,
+				3F694101219A8B4E001885D0 /* PersonFetcher.swift in Sources */,
 				3F6940ED219A8A3B001885D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,12 +291,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Mr. Kenn/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Mr. Keen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.raj.Mr--Kenn";
+				PRODUCT_BUNDLE_IDENTIFIER = org.raj.Mr.Keen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +308,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Mr. Kenn/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Mr. Keen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.raj.Mr--Kenn";
+				PRODUCT_BUNDLE_IDENTIFIER = org.raj.Mr.Keen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F6940E4219A8A3B001885D0 /* Build configuration list for PBXProject "Mr. Kenn" */ = {
+		3F6940E4219A8A3B001885D0 /* Build configuration list for PBXProject "Mr. Keen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F6940F9219A8A3D001885D0 /* Debug */,
@@ -324,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F6940FB219A8A3E001885D0 /* Build configuration list for PBXNativeTarget "Mr. Kenn" */ = {
+		3F6940FB219A8A3E001885D0 /* Build configuration list for PBXNativeTarget "Mr. Keen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F6940FC219A8A3E001885D0 /* Debug */,
